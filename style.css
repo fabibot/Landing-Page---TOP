@@ -1,3 +1,184 @@
-h1 {
-  font-size : 100px;
+.largeHeader {
+  background-color: #1F2937;
 }
+
+.topHeader {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  padding : 20px 200px 0px 200px;
+}
+
+h1, h2, h3, h4, h6, ul li {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+}
+h1{
+  font-size: 24px;
+  color : #F9F1F8;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h4 {
+  font-style: italic;
+  font-size:  36px;
+} 
+
+.right{
+  text-align: right;
+
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.dark { 
+  color : #1F2937;
+}
+
+.light {
+  color: #E5E7EB;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display : flex;
+  gap : 20px;
+}
+
+
+.bottomHeader {
+  display: flex;
+  padding-top : 100px;
+  padding-bottom: 100px;
+  justify-content: center;
+  gap : 100px;
+}
+
+.mainTitle{
+  width: 600px;
+  align-self: center;
+
+}
+
+button {
+  color : #E5E7EB;
+  background-color: #3882F6;
+  border-color: #E5E7EB;
+  border-radius: 5px;
+  padding: 7px 30px;
+}
+.mainImage {
+  background-color: #3882F6;
+  width : 600px;
+  height : 250px;
+  flex-basis: 1;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.mainTitle h2, .mainTitle h6, .mainTitle button {
+  margin: 10px;
+}
+
+.information {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.informationTitle {
+  text-align: center;
+}
+
+.informationBox {
+  display : flex;
+  justify-content: center;
+  gap : 60px;
+}
+
+.smallInfo {
+  width: 250px;
+  text-align: center;
+}
+
+.smallInfo h6 {
+ margin-top: 10px;
+}
+
+.square {
+  border: solid;
+  width: 250px;
+  height: 250px;
+  flex-basis: 1;
+
+  border-color: #1F2937;
+  border-radius: 20px;
+  border-color: #3882F6;
+  margin-top : 30px;
+
+}
+
+.citation {
+  background-color: #E5E7EB;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+.citationBox{
+  width: 1000px;
+
+}
+
+
+.call {
+  display : flex;
+  justify-content:  center; 
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.rect{
+  background-color: #3882F6;
+  width: 1300px;
+  height: 150px;
+  flex-basis: 1;
+  border-radius: 20px;
+  padding: 5px 80px 5px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rect h6{
+  margin : 5px;
+}
+
+
+
+.footer {
+  display : flex ;
+  justify-content: center;
+  align-content: center;
+}
+
